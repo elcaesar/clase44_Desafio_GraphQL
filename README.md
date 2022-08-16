@@ -9,8 +9,9 @@
 ``` npm run dev ``` or ``` npm start ```
 ### En el .env se debe cambiar el valor de la variable PERSISTENCE por MONGO o FIREBASE y luego arrancar el servidor
 
-### Se puede probar a nivel local ingresando a `localhost:3000/graphql` y pulsar el botón `Query your server`
+### Se puede probar a nivel local ingresando a `localhost:3000/graphql` se desplegará la ventana de Apollo y pulsar el botón `Query your server`
 
+* Para implementar GraphQL en el actual proyecto REST API se utilizó `Apollo`, más específicamente la librería `apollo-server-express`
 * Se desplegó la base de datos en la nube (MongoDB Atlas) llamada `ecommerce` realizando un CRUD sobre la coleccón `products`.
 
 ## Screenshots
